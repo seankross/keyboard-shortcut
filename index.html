@@ -20,9 +20,7 @@
                     os = 'Windows';
                 } else if (/Android/.test(userAgent)) {
                     os = 'Android';
-                } else if (!os && /Linux/.test(platform)) {
-                    os = 'Linux';
-                }
+                } 
                 
                 return os;
             }
